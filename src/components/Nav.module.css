@@ -1,7 +1,7 @@
 .nav {
-    background: 
-    url("/images/bg-pattern-mobile-nav.svg") no-repeat bottom / contain,
-    var(--very-dark-violet);
+    background:
+        url("/images/bg-pattern-mobile-nav.svg") no-repeat bottom / contain,
+        var(--very-dark-violet);
     position: absolute;
     top: 100%;
     left: 0;
@@ -77,8 +77,8 @@
 
     .view_plans_btn_bar {
         font-size: var(--fs);
-        color: var(--very-dark-violet);
-        border: 2px solid var(--very-dark-violet);
+        color: var(--dark-grayish-violet);
+        border: 4px solid #35C084;
         padding: calc(var(--mobile-pad-b) / 3.75) var(--mobile-pad-i);
         margin: 0;
         cursor: pointer;
@@ -94,7 +94,8 @@
         color: var(--very-dark-violet);
     }
 
-    .view_plans_btn_bar, a {
+    .view_plans_btn_bar,
+    a {
         transition: all .125s ease;
     }
 }

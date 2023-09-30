@@ -1,6 +1,15 @@
+.logo_title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: black;
+  font-family: Inter;
+  color: white;
+}
+
 .footer {
     padding: calc(var(--mobile-pad-b) * 4) var(--mobile-pad-i);
-    background-color: var(--very-light-gray);
+    /* background-color: var(--very-light-gray); */
+    background-color: rgb(33, 34, 44);
     display: grid;
     justify-items: center;
     row-gap: 2.25rem;
@@ -14,10 +23,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: 
+    /* background: 
         url("/images/bg-pattern-footer-mobile.svg")
         no-repeat
-        top left;
+        top left; */
     pointer-events: none;
 }
 
@@ -56,6 +65,7 @@ hr {
 
 .title {
     color: var(--dark-grayish-violet);
+    color: white;
     margin-block-end: 1.75rem;
 }
 
@@ -68,6 +78,7 @@ hr {
 .redirect {
     text-decoration: none;
     color: var(--very-light-violet);
+    color: white;
     position: relative;
 }
 
@@ -79,10 +90,10 @@ hr {
     }
 
     .footer::before {
-        background: 
+        /* background: 
             url("/images/bg-pattern-footer-desktop.svg")
             no-repeat
-            top left;
+            top left; */
     }
 
     .head {

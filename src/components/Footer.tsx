@@ -52,7 +52,8 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.head}>
-        <img src={Logo} alt="insure logo" className={styles.logo} />
+        {/* <img src={Logo} alt="insure logo" className={styles.logo} /> */}
+        <h2 className={styles.logo_title}>PDF AI</h2>
         <div className={styles.wrapper}>
           <a href="#">
             <img

@@ -3,7 +3,8 @@
     margin-inline: 1.5rem;
     display: grid;
     row-gap: 2rem;
-    background-color: var(--dark-violet);
+    /* background-color: var(--dark-violet); */
+    background-color: #16a085;
     color: white;
     position: relative;
 }

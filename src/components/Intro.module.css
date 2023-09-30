@@ -4,7 +4,8 @@
 }
 
 .intro {
-    background: var(--dark-violet);
+    /* background: var(--dark-violet); */
+    background: #16a085;
 }
 
 .intro_content {
@@ -66,7 +67,8 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        background-color: var(--dark-violet);
+        background-color: #16a085;
+        /* background-color: var(--dark-violet); */
         padding-inline: var(--desktop-pad-i);
         margin-block-end: 9rem;
         display: flex;
